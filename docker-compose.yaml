@@ -8,7 +8,6 @@ services:
     environment:    
       GOTIFY_DEFAULTUSER_Name: 'Chilltactix'
       GOTIFY_DEFAULTUSER_PASS: 'MyLove199707'
-      TZ=America/Central_Time
     volumes:
       - './gotify_data:/app/data'
     # to run gotify as a dedicated user:
